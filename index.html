@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatou NDIAYE | Portfolio BTS SIO SLAM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loader animé -->
+    <div class="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- Bouton Mode Sombre -->
+    <button id="darkModeToggle" aria-label="Mode sombre">
+        <i class="fas fa-moon"></i>
+    </button>
+
+   <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-logo">
+            <span>F</span>NDIAYE
+        </div>
+        <ul class="nav-links">
+            <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+            <li><a href="#apropos" class="nav-link">À Propos</a></li>
+            <li><a href="#parcours" class="nav-link">Parcours</a></li>
+            <li><a href="#competences" class="nav-link">Compétences</a></li>
+            <li><a href="#projets" class="nav-link">Projets</a></li>
+            <li><a href="#bts sio" class="nav-link">BTS SIO</a></li>
+            <li><a href="#veille technologique" class="nav-link">Veille Technologique</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-word title-word-1">Fatou</span>
+                    <span class="title-word title-word-2">NDIAYE</span>
+                </h1>
+                <h2 class="hero-subtitle">Étudiante en BTS SIO SLAM</h2>
+                <div class="hero-description">
+                    <p>
+                        Je m'appelle Fatou NDIAYE, étudiante en BTS Services Informatiques auxOrganisations (SIO), Solutions Logicielles et Applications Métier (SLAM), auCFA-ITIS. Passionnée par le développement web et les nouvelles technologies,je m’épanouis dans la création de solutions numériques innovantes etintuitives. À travers ce portfolio, je vous invite à découvrir mon parcours, mescompétences techniques et les projets que j’ai réalisés. Mon objectif est deconcevoir des applications performantes et ergonomiques, en mettantl’accent sur l’expérience utilisateur et les meilleures pratiques dudéveloppement. Curieuse et rigoureuse, je cherche constamment àapprofondir mes connaissances, notamment en développement web, engestion des bases de données et en programmation orientée objet. Ceportfolio reflète mon engagement et mon évolution dans ce domainepassionnant.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#parcours" class="btn btn-primary">Mon Parcours</a>
+                        <a href="#competences" class="btn btn-primary">Mes Compétences</a>
+                        <a href="#projets" class="btn btn-primary">Mes Projets</a>
+                        <a href="#bts sio" class="btn btn-primary">BTS SIO</a>
+                        <a href="#veille technologique" class="btn btn-primary">Ma Veille Technologique</a>
+                        <a href="#contact" class="btn btn-secondary">Me Contacter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>   
+
+    
+
+
+    <!-- Section Parcours -->
+    <section id="parcours" class="section">
+        <div class="section-header">
+            <h2 class="section-title">Mon <span>Parcours</span></h2>
+            <div class="section-line"></div>
+            <p class="section-subtitle">Mon parcours académique et professionnel</p>
+        </div>
+
+        <div class="parcours-container">
+            <!-- CFA ITIS -->
+            <div class="parcours-card">
+                <div class="parcours-img-box" data-desc="cfa-desc">
+                    <img src="images/cfa.jpg" alt="CFA ITIS" class="parcours-img">
+                    <div class="parcours-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="parcours-content">
+                    <h3>BTS SIO SLAM</h3>
+                    <p class="parcours-date">2024 - 2026</p>
+                    <ul class="parcours-skills">
+                        <li>Algorithmie</li>
+                        <li>Bases de données</li>
+                        <li>Gestion de projets</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- AMU -->
+            <div class="parcours-card">
+                <div class="parcours-img-box" data-desc="amu-desc">
+                    <img src="images/amu.jpg" alt="Aix-Marseille Université" class="parcours-img">
+                    <div class="parcours-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="parcours-content">
+                    <h3>Licence LLCER</h3>
+                    <p class="parcours-date">2021 - 2024</p>
+                    <p class="parcours-mention">Mention Assez Bien</p>
+                </div>
+            </div>
+
+            <!-- Lycée -->
+            <div class="parcours-card">
+                <div class="parcours-img-box" data-desc="lycée-desc">
+                    <img src="images/lycée.jpg" alt="Lycée Serigne Mbacké bousso" class="parcours-img">
+                    <div class="parcours-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="parcours-content">
+                    <h3>Bac Littéraire</h3>
+                    <p class="parcours-date">2019 - 2020</p>
+                    <p class="parcours-mention">Mention Assez Bien</p>
+                </div>
+            </div>
+</section>
+
+    <!-- Modals Parcours -->
+    <div class="parcours-modal" id="cfa-desc">
+        <div class="modal-content">
+            <h3>BTS SIO SLAM - CFA ITIS</h3>
+            <p>Formation intensive en développement d'applications métiers avec 60% de pratique.</p>
+            <p>Apprentissage des langages modernes (Java, java script, PHP.....) et méthodologies Agile.</p>
+            <p>Réalisation de projets concrets pour entreprises partenaires.</p>
+            <p>Alternance avec développement d'outils internes.</p>
+            <p>Spécialisation en développement web dès le milieu de la première année.</p>
+            <span class="close-modal">&times;</span>
+        </div>
+    </div>
+
+    <div class="parcours-modal" id="amu-desc">
+        <div class="modal-content">
+            <h3>Licence LLCER - AMU</h3>
+            <p>Spécialisation en arabe littéraire et initiation au persan (niveau B1).</p>
+            <p>Analyse de textes classiques et contemporains du monde arabe.</p>
+            <p>Licence sur l'influence des technologies sur la langue arabe.</p>
+            <p>Obtention avec mention Assez Bien (12/20).</p>
+            <span class="close-modal">&times;</span>
+        </div>
+    </div>
+
+    <div class="parcours-modal" id="lycée-desc">
+        <div class="modal-content">
+            <h3>Bac Littéraire - SMB</h3>
+            <p>Spécialisation en franco-arabe et initiation en anglais (niveau B1).</p>
+            <p>Analyse de textes classiques et contemporains du monde arabe.</p>
+            <p>la traduction des textes arabe-français ou français-arabe.</p>
+            <p>Etudier defférentes matières tel que : histoire-géographique, mathématique, grammaire, etudes islamiques......</p>
+            <p>Obtention avec mention Assez Bien (12/20).</p>
+            <span class="close-modal">&times;</span>
+        </div>
+    </div>
+
+     
+    
+ <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- Section Compétences -->
+<section id="competences" class="section bg-dark">
+    <div class="section-header">
+        <h2 class="section-title">Mes <span>Compétences</span></h2>
+        <div class="section-line"></div>
+    </div>
+
+    <div class="competences-container">
+        <!-- Partie Langages -->
+        <div class="competences-part">
+            <h3 class="competences-subtitle">
+                <i class="fas fa-code"></i> Maîtrise des langages et technologies
+            </h3>
+            <div class="competences-grid">
+                <!-- HTML -->
+                <div class="competence-card">
+                    <div class="competence-img-box">
+                        <img src="images/html-logo.png" alt="HTML5" class="competence-img">
+                    </div>
+                    <div class="competence-content">
+                        <h4>HTML5</h4>
+                        <div class="competence-desc">
+                            <p>Maîtrise de la structure sémantique des pages web. Création de formulaires accessibles et intégration de médias.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CSS -->
+                <div class="competence-card">
+                    <div class="competence-img-box">
+                        <img src="images/css-logo.png" alt="CSS3" class="competence-img">
+                    </div>
+                    <div class="competence-content">
+                        <h4>CSS3</h4>
+                        <div class="competence-desc">
+                            <p>Animation, flexbox, grid layout. Design responsive et variables CSS. Transition et transformation avancées.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="competence-card">
+                    <div class="competence-img-box">
+                        <img src="images/js-logo.png" alt="JavaScript" class="competence-img">
+                    </div>
+                    <div class="competence-content">
+                        <h4>JavaScript</h4>
+                        <div class="competence-desc">
+                            <p>Manipulation du DOM, requêtes AJAX. Programmation événementielle et utilisation des API modernes.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PHP -->
+                <div class="competence-card">
+                    <div class="competence-img-box">
+                        <img src="images/php-logo.png" alt="PHP" class="competence-img">
+                    </div>
+                    <div class="competence-content">
+                        <h4>PHP</h4>
+                        <div class="competence-desc">
+                            <p>Développement côté serveur. Gestion des sessions et interactions avec bases de données MySQL.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Java -->
+                <div class="competence-card">
+                    <div class="competence-img-box">
+                        <img src="images/java-logo.png" alt="Java" class="competence-img">
+                    </div>
+                    <div class="competence-content">
+                        <h4>Java</h4>
+                        <div class="competence-desc">
+                            <p>Programmation orientée objet. Création d'applications avec spring boot back-end.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Partie Outils -->
+        <div class="competences-part">
+            <h3 class="competences-subtitle">
+                <i class="fas fa-tools"></i> Outils essentiels pour le développement
+            </h3>
+            <div class="competences-grid">
+                <!-- VS Code -->
+                <div class="competence-card">
+                    <div class="competence-img-box">
+                        <img src="images/vscode-logo.png" alt="VS Code" class="competence-img">
+                    </div>
+                    <div class="competence-content">
+                        <h4>VS Code</h4>
+                        <div class="competence-desc">
+                            <p>Configuration avancée, extensions indispensables (ESLint, Prettier). Débogage et gestion de projets.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MAMP -->
+                <div class="competence-card">
+                    <div class="competence-img-box">
+                        <img src="images/mamp-logo.png" alt="MAMP" class="competence-img">
+                    </div>
+                    <div class="competence-content">
+                        <h4>MAMP</h4>
+                        <div class="competence-desc">
+                            <p>Configuration de serveurs locaux. Gestion de bases de données via phpMyAdmin.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spring Tools -->
+                <div class="competence-card">
+                    <div class="competence-img-box">
+                        <img src="images/spring-logo.png" alt="Spring Tools" class="competence-img">
+                    </div>
+                    <div class="competence-content">
+                        <h4>Spring Tools 4</h4>
+                        <div class="competence-desc">
+                            <p>Développement d'applications Java EE. Configuration de projets Spring Boot.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Section Projets -->
+<section id="projets" class="section bg-dark">
+    <div class="section-header">
+        <h2 class="section-title">Mes <span>Projets</span></h2>
+        <div class="section-line"></div>
+    </div>
+
+    <div class="stage-container">
+        <!-- En-tête du stage -->
+        <div class="stage-header">
+            <div class="company-logo">
+                <img src="images/kysad-logo.png" alt="Logo KYSAD Group">
+            </div>
+            <div class="stage-info">
+                <h3>Stage Développeur Web</h3>
+                <p class="company-name">KYSAD Group</p>
+                <p class="stage-dates">30 Juillet - 02 Août 2025</p>
+            </div>
+        </div>
+
+        <!-- Description générale -->
+        <div class="stage-description">
+            <p>Participation au développement d'applications web dynamiques pour faciliter les démarches des étudiants sénégalais vers les universités internationales. Mission intense de 4 jours avec des résultats concrets.</p>
+        </div>
+
+        <!-- Missions réalisées -->
+        <div class="missions-grid">
+            <!-- Mission 1 -->
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h4>Automatisation PDF</h4>
+                <p>Développement d'un script PHP pour générer automatiquement les dossiers de candidature au format PDF.</p>
+                <div class="mission-tech">
+                    <span>PHP</span>
+                    <span>TCPDF</span>
+                    <span>HTML/CSS</span>
+                </div>
+            </div>
+
+            <!-- Mission 2 -->
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h4>Base de Données</h4>
+                <p>Conception et implémentation d'une base MySQL pour le suivi des candidatures avec relations étudiants/universités.</p>
+                <div class="mission-tech">
+                    <span>MySQL</span>
+                    <span>PDO</span>
+                    <span>Normalisation</span>
+                </div>
+            </div>
+
+            <!-- Mission 3 -->
+            <div class="mission-card">
+                <div class="mission-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h4>Correction des Emails</h4>
+                <p>Résolution du bug critique d'envoi multiple d'emails avec système de verrouillage et journalisation.</p>
+                <div class="mission-tech">
+                    <span>PHPMailer</span>
+                    <span>File Lock</span>
+                    <span>Logging</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Résultats concrets -->
+        <div class="stage-results">
+            <h3>Résultats Concrets</h3>
+            <div class="results-grid">
+                <div class="result-item">
+                    <div class="result-number">+75%</div>
+                    <div class="result-text">Gain de temps sur la génération des dossiers</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-number">0</div>
+                    <div class="result-text">Email en double envoyé après correction</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-number">100%</div>
+                    <div class="result-text">Traçabilité des candidatures</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Extraits de code -->
+        <div class="code-examples">
+            <h3>Extraits de Code</h3>
+            <div class="code-tabs">
+                <button class="code-tab active" data-tab="pdf-generation">Génération PDF</button>
+                <button class="code-tab" data-tab="email-fix">Correction Email</button>
+                <button class="code-tab" data-tab="db-query">Requête SQL</button>
+            </div>
+            
+            <div class="code-content active" id="pdf-generation">
+                <pre><code class="php">// Génération automatique des PDF de candidature
+function generateApplicationPDF($studentId, $universityId) {
+    require_once('tcpdf/tcpdf.php');
+    
+    // Récupération des données
+    $student = getStudentData($studentId);
+    $university = getUniversityData($universityId);
+    
+    // Création du PDF
+    $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+    $pdf->AddPage();
+    
+    // Contenu HTML
+    $html = '&lt;h1&gt;Candidature '.$university['name'].'&lt;/h1&gt;';
+    $html .= '&lt;p&gt;Étudiant: '.$student['name'].'&lt;/p&gt;';
+    // ... autres données
+    
+    $pdf->writeHTML($html, true, false, true, false, '');
+    
+    // Enregistrement
+    $filename = 'candidatures/'.$studentId.'_'.$universityId.'.pdf';
+    $pdf->Output($filename, 'F');
+    
+    return $filename;
+}</code></pre>
+            </div>
+            
+            <div class="code-content" id="email-fix">
+                <pre><code class="php">// Système anti-doublon pour les emails
+function sendApplicationEmail($applicationId, $recipient) {
+    $lockFile = "locks/email_".$applicationId.".lock";
+    
+    if (file_exists($lockFile)) {
+        logError("Tentative d'envoi en double bloquée: ".$applicationId);
+        return false;
+    }
+    
+    // Création du verrou
+    file_put_contents($lockFile, date('Y-m-d H:i:s'));
+    
+    try {
+        $mail = new PHPMailer(true);
+        // Configuration de l'email...
+        $mail->send();
+        logSuccess("Email envoyé: ".$applicationId);
+        return true;
+    } finally {
+        // Suppression du verrou
+        unlink($lockFile);
+    }
+}</code></pre>
+            </div>
+            
+            <div class="code-content" id="db-query">
+                <pre><code class="sql">-- Requête optimisée pour le suivi des candidatures
+SELECT 
+    s.student_id,
+    s.full_name,
+    u.university_name,
+    a.application_date,
+    a.status
+FROM 
+    students s
+JOIN 
+    applications a ON s.student_id = a.student_id
+JOIN 
+    universities u ON a.university_id = u.university_id
+WHERE 
+    a.status = 'pending'
+ORDER BY 
+    a.application_date DESC
+LIMIT 50;</code></pre>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section Projet Académique -->
+<section id="projet-academique" class="section bg-light">
+    <div class="section-header">
+        <h2 class="section-title">Projet <span>Académique</span></h2>
+        <div class="section-line"></div>
+    </div>
+
+    <div class="project-container">
+        <!-- En-tête du projet -->
+        <div class="project-header">
+            <div class="project-badge">
+                <i class="fas fa-graduation-cap"></i>
+                PROJET DE 1ÈRE ANNÉE
+            </div>
+            <h3>Application Événementielle Culturelle</h3>
+            <p class="project-subtitle">Plateforme full-stack de gestion d'événements culturels</p>
+            
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <i class="fab fa-java"></i>
+                    <span>Spring Boot</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-database"></i>
+                    <span>MySQL/Hibernate</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-react"></i>
+                    <span>React.js</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-github"></i>
+                    <span>Git/GitHub</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Présentation du projet -->
+        <div class="project-overview">
+            <div class="overview-text">
+                <h4>Contexte du Projet</h4>
+                <p>Développement en équipe d'une application web complète permettant aux organisateurs de créer des événements culturels et aux utilisateurs de réserver des places. Projet réalisé sur 3 mois avec méthodologie Agile.</p>
+                
+                <div class="key-features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>API REST sécurisée avec Spring Security</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Système de rôles (Admin/Organisateur/Utilisateur)</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Interface responsive avec React</span>
+                    </div>
+                </div>
+            </div>
+            <div class="overview-image">
+                <img src="images/mosaicevent.jpg" alt="Mosaic Event">
+            </div>
+        </div>
+
+        <!-- Architecture technique -->
+        <div class="architecture-section">
+            <h4>Architecture Technique</h4>
+            <div class="architecture-grid">
+                <div class="arch-layer">
+                    <div class="layer-icon frontend">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h5>Frontend</h5>
+                    <ul>
+                        <li>React.js avec Hooks</li>
+                        <li>Material-UI</li>
+                        <li>Axios pour les requêtes API</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="arch-layer">
+                    <div class="layer-icon backend">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h5>Backend</h5>
+                    <ul>
+                        <li>Spring Boot 3</li>
+                        <li>Spring Security/JWT</li>
+                        <li>API RESTful</li>
+                        <li>Validation des données</li>
+                    </ul>
+                </div>
+                <div class="arch-layer">
+                    <div class="layer-icon database">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h5>Base de Données</h5>
+                    <ul>
+                        <li>MySQL 8</li>
+                        <li>Hibernate ORM</li>
+                        <li>Relations JPA</li>
+                        <li>Schéma normalisé</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modélisation de données -->
+        <div class="data-modeling">
+            <h4>Modélisation des Données</h4>
+            <div class="model-content">
+                <div class="uml-diagram">
+                    <img src="images/uml-diagram.png" alt="Diagramme UML des entités">
+                    <p class="diagram-caption">Diagramme de classes simplifié</p>
+                </div>
+                <div class="code-example">
+                    <div class="code-tabs">
+                        <button class="code-tab active" data-tab="user-entity">User.java</button>
+                        <button class="code-tab" data-tab="event-entity">Evenement.java</button>
+                        <button class="code-tab" data-tab="repository">Repository</button>
+                    </div>
+                    
+                    <div id="user-entity" class="code-content active">
+                        <pre><code class="java">// Entité User avec JPA/Hibernate
+package com.example.demo.entities;
+
+import jakarta.persistence.*;
+import java.util.List;
+
+@Entity
+public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long idUser;
+    
+    private String nom;
+    private String prenom;
+    private String email;
+    private String password;
+    
+    @ManyToOne
+    @JoinColumn(name = "role_id")
+    private Role role;
+    
+    @OneToMany(mappedBy = "organisateur")
+    private List<Evenement> evenementsOrganises;
+    
+    @OneToMany(mappedBy = "user")
+    private List<Reservation> reservations;
+
+    // Getters et Setters
+}</code></pre>
+                    </div>
+                    
+                    <div id="event-entity" class="code-content">
+                        <pre><code class="java">// Entité Evenement
+package com.example.demo.entities;
+
+import java.util.Date;
+import java.util.List;
+import jakarta.persistence.*;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
+
+@Entity
+public class Evenement<Sponsor> {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long idEvent;
+    
+    private String titreEvent;
+    private String description;
+    private Date dateDebut;
+    private Date dateFin;
+    private String image;
+    private Integer nbPlace;
+    
+    @ManyToOne
+    private TypeEvent typeEvent;
+    
+    @ManyToOne
+    private Adresse adresse;
+    
+    @ManyToOne
+    private Tarif tarif;
+    
+    @ManyToOne
+    private User organisateur;
+    
+    @OneToMany(mappedBy = "evenement")
+    private List<Reservation> reservations;
+    
+    @ManyToMany
+    @JoinTable(
+        name = "sponsoriser",
+        joinColumns = @JoinColumn(name = "idEvent"),
+        inverseJoinColumns = @JoinColumn(name = "idSponsor"))
+    private List<User> sponsors;
+    
+    // Getters et Setters
+}</code></pre>
+                    </div>
+                    
+                    <div id="repository" class="code-content">
+                        <pre><code class="java">// ackage com.example.demo.repos;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.example.demo.entities.Evenement;
+import java.util.List;
+
+public interface EvenementRepository extends JpaRepository<Evenement, Long> {
+    // Méthodes spécifiques au besoin
+    List<Evenement> findByTitreEventContaining(String titre); // Exemple de recherche
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fonctionnalités clés -->
+        <div class="features-section">
+            <h4>Fonctionnalités Implémentées</h4>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon auth">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h5>Système d'Authentification</h5>
+                    <ul>
+                        <li>Inscription/Connexion sécurisée</li>
+                        <li>JWT pour l'autorisation</li>
+                        <li>Hachage BCrypt des mots de passe</li>
+                        <li>Rôles et permissions</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon event">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h5>Gestion des Événements</h5>
+                    <ul>
+                        <li>CRUD complet avec validation</li>
+                        <li>Recherche et filtrage</li>
+                        <li>Pagination des résultats</li>
+                        <li>Export PDF des participants</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon reservation">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h5>Réservations</h5>
+                    <ul>
+                        <li>Processus de réservation en 3 étapes</li>
+                        <li>Email de confirmation</li>
+                        <li>QR Code pour check-in</li>
+                        <li>Annulation et remboursement</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Apprentissages -->
+        <div class="learnings-section">
+            <h4>Compétences Acquises</h4>
+            <div class="learnings-content">
+                <div class="technical-skills">
+                    <h5>Techniques</h5>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-meter" data-level="90"></div>
+                            <span>Développement Full-Stack</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-meter" data-level="85"></div>
+                            <span>API REST avec Spring</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-meter" data-level="80"></div>
+                            <span>Modélisation de BDD</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="soft-skills">
+                    <h5>Transversales</h5>
+                    <ul>
+                        <li><i class="fas fa-users"></i> Travail d'équipe avec GitHub</li>
+                        <li><i class="fas fa-tasks"></i> Gestion de projet (Trello, Agile)</li>
+                        <li><i class="fas fa-book"></i> Respect du cahier des charges</li>
+                        <li><i class="fas fa-lightbulb"></i> Résolution de problèmes techniques</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+
+
+
+
+
+<!-- Section BTS SIO -->
+<section id="bts-sio" class="section bg-dark">
+    <div class="section-header">
+        <h2 class="section-title">BTS <span>SIO</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Services Informatiques aux Organisations</p>
+    </div>
+
+    <div class="bts-container">
+        <!-- Option SLAM -->
+        <div class="bts-card">
+            <div class="bts-content">
+                <h3>Option SLAM</h3>
+                <p class="bts-option-name">Solutions Logicielles et Applications Métiers</p>
+                <div class="bts-skills">
+                    <span class="skill-tag">Développement</span>
+                    <span class="skill-tag">Applications Web</span>
+                    <span class="skill-tag">Bases de données</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Option SISR -->
+        <div class="bts-card">
+            <div class="bts-content">
+                <h3>Option SISR</h3>
+                <p class="bts-option-name">Solutions d'Infrastructure, Systèmes et Réseaux</p>
+                <div class="bts-skills">
+                    <span class="skill-tag">Réseaux</span>
+                    <span class="skill-tag">Sécurité</span>
+                    <span class="skill-tag">Cloud</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modals pour les descriptions -->
+<div class="bts-modal" id="slam-desc">
+    <div class="modal-content">
+        <h3>Option SLAM</h3>
+        <div class="modal-grid">
+            <div class="modal-img">
+                <img src="images/slam-detail.jpg" alt="Détails SLAM">
+            </div>
+            <div class="modal-text">
+                <p>L'option <strong>Solutions Logicielles et Applications Métiers</strong> forme des spécialistes du développement d'applications :</p>
+                <ul>
+                    <li>Conception et développement d'applications</li>
+                    <li>Programmation orientée objet (Java, C#, PHP)</li>
+                    <li>Gestion de bases de données (SQL, MySQL)</li>
+                    <li>Développement web front-end et back-end</li>
+                    <li>Cycle de vie du logiciel et méthodes Agile</li>
+                </ul>
+                <p>Débouchés : Développeur d'applications, Analyste programmeur, Chef de projet web...</p>
+            </div>
+        </div>
+        <span class="close-modal">&times;</span>
+    </div>
+</div>
+
+<div class="bts-modal" id="sisr-desc">
+    <div class="modal-content">
+        <h3>Option SISR</h3>
+        <div class="modal-grid">
+            <div class="modal-img">
+                <img src="images/sisr-detail.jpg" alt="Détails SISR">
+            </div>
+            <div class="modal-text">
+                <p>L'option <strong>Solutions d'Infrastructure, Systèmes et Réseaux</strong> forme des experts en infrastructures :</p>
+                <ul>
+                    <li>Installation et administration de réseaux</li>
+                    <li>Virtualisation et cloud computing</li>
+                    <li>Sécurité des systèmes informatiques</li>
+                    <li>Maintenance et dépannage de parc informatique</li>
+                    <li>Gestion de serveurs (Windows Server, Linux)</li>
+                </ul>
+                <p>Débouchés : Administrateur réseau, Technicien support, Architecte systèmes...</p>
+            </div>
+        </div>
+        <span class="close-modal">&times;</span>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- Section Veille Technologique Les Pare-Feux -->
+<section id="veille" class="section">
+    <div class="section-header">
+        <h2 class="section-title">Veille <span>Technologique</span></h2>
+        <div class="section-line"></div>
+        <p class="section-subtitle">Les Pare-feux : Évolution Stratégique face à la Cybermenace Contemporaine</p>
+    </div>
+
+    <div class="veille-container">
+        <!-- Introduction -->
+        <div class="dissertation-part introduction">
+            <div class="part-header">
+                <i class="fas fa-door-open"></i>
+                <h3>Introduction : La Nécessité Impérieuse des Pare-feux Modernes</h3>
+            </div>
+            <div class="part-content">
+                <div class="intro-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">+238%</div>
+                        <div class="stat-label">attaques ransomware en 2024<br><em>(ANSSI, 2024)</em></div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">4,2M</div>
+                        <div class="stat-label">nouvelles vulnérabilités recensées<br><em>(CVE, 2024)</em></div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">92%</div>
+                        <div class="stat-label">organisations utilisant des NGFW<br><em>(Gartner, 2024)</em></div>
+                    </div>
+                </div>
+                
+                <p class="intro-text">
+                    <strong>Dans le paysage numérique contemporain</strong>, marqué par une sophistication croissante des cybermenaces, 
+                    le pare-feu constitue la pierre angulaire de toute architecture de sécurité digne de ce nom. 
+                    Initialement conçu comme un simple filtre de paquets, cet outil a subi une transformation radicale, 
+                    évoluant vers des systèmes intelligents capables d'analyser le comportement et le contexte. 
+                    Cette veille technologique examine l'évolution stratégique des pare-feux face aux défis de la sécurité moderne.
+                </p>
+
+                <div class="key-concepts">
+                    <h4>Concepts Clés :</h4>
+                    <ul>
+                        <li>Transition des firewalls stateless vers les NGFW (Next Generation Firewall)</li>
+                        <li>Intégration de l'IA et du Machine Learning pour la détection proactive</li>
+                        <li>Adoption des architectures Zero Trust et SASE</li>
+                        <li>Migration vers le cloud avec le FWaaS (Firewall as a Service)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Développement - Partie 1 -->
+        <div class="dissertation-part development">
+            <div class="part-header">
+                <i class="fas fa-chart-line"></i>
+                <h3>I. Évolution Technologique : Du Filtrage Basique à l'Intelligence Artificielle</h3>
+            </div>
+            <div class="part-content">
+                <div class="evolution-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">1990s</div>
+                        <div class="timeline-content">
+                            <h4>Firewalls Stateless</h4>
+                            <p>Filtrage basique basé sur les adresses IP et ports. Limité aux couches 3-4 du modèle OSI.</p>
+                            <em>Source : RFC 2979 - Behavior of and Requirements for Internet Firewalls</em>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2000s</div>
+                        <div class="timeline-content">
+                            <h4>Firewalls Stateful</h4>
+                            <p>Suivi de l'état des connexions. Inspection plus approfondie avec mémorisation du contexte.</p>
+                            <em>Source : NIST SP 800-41 - Guidelines on Firewalls and Firewall Policy</em>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2010s</div>
+                        <div class="timeline-content">
+                            <h4>NGFW (Next Generation)</h4>
+                            <p>Inspection couche 7, identification des applications, intégration IPS/IDS.</p>
+                            <em>Source : Gartner - Defining the Next-Generation Firewall (2012)</em>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020s</div>
+                        <div class="timeline-content">
+                            <h4>IA & Machine Learning</h4>
+                            <p>Détection comportementale, analyse prédictive, réponse automatique aux incidents.</p>
+                            <em>Source : MITRE ATT&CK Framework - AI in Cybersecurity (2024)</em>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="technical-analysis">
+                    <h4>Analyse Technique : Les Avantages des NGFW</h4>
+                    <div class="analysis-grid">
+                        <div class="analysis-item">
+                            <i class="fas fa-layer-group"></i>
+                            <h5>Inspection Profonde</h5>
+                            <p>Analyse jusqu'à la couche applicative (HTTP, DNS, FTP)</p>
+                            <em>RFC 8470 - Deep Packet Inspection</em>
+                        </div>
+                        <div class="analysis-item">
+                            <i class="fas fa-brain"></i>
+                            <h5>Intelligence Contextuelle</h5>
+                            <p>Décision basée sur l'utilisateur, l'application et le contenu</p>
+                            <em>NIST SP 800-207 - Zero Trust Architecture</em>
+                        </div>
+                        <div class="analysis-item">
+                            <i class="fas fa-bolt"></i>
+                            <h5>Performance Optimisée</h5>
+                            <p>Dédoublement SSL/TLS sans impact sur les performances</p>
+                            <em>IEEE Transactions on Security - 2023</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Développement - Partie 2 -->
+        <div class="dissertation-part development">
+            <div class="part-header">
+                <i class="fas fa-cloud"></i>
+                <h3>II. Transformation Architecturale : Cloud, Zero Trust et SASE</h3>
+            </div>
+            <div class="part-content">
+                <div class="architecture-comparison">
+                    <div class="arch-item">
+                        <h4>Architecture Traditionnelle</h4>
+                        <ul>
+                            <li>Périmètre réseau défini</li>
+                            <li>Focus sur la défense du réseau</li>
+                            <li>Appareils physiques on-premise</li>
+                            <li>Gestion centralisée</li>
+                        </ul>
+                        <em>Limitations : Rigidité, coûts élevés, difficulté d'adaptation</em>
+                    </div>
+                    <div class="arch-item">
+                        <h4>Architecture Moderne (SASE)</h4>
+                        <ul>
+                            <li>Périmètre défini par logiciel</li>
+                            <li>Zero Trust : "Never Trust, Always Verify"</li>
+                            <li>FWaaS (Firewall as a Service)</li>
+                            <li>Gestion unifiée cloud/on-premise</li>
+                        </ul>
+                        <em>Avantages : Flexibilité, scalabilité, réduction des coûts</em>
+                    </div>
+                </div>
+
+                <div class="case-study">
+                    <h4>Étude de Cas : Implémentation Zero Trust chez Microsoft</h4>
+                    <p><strong>Contexte :</strong> Migration de 200 000 employés vers le modèle Zero Trust</p>
+                    <div class="results-grid">
+                        <div class="result-item">
+                            <div class="result-number">-67%</div>
+                            <div class="result-label">Incidents de sécurité<br><em>Source : Microsoft Security Report 2024</em></div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-number">40%</div>
+                            <div class="result-label">Réduction des coûts opérationnels<br><em>Source : IDC White Paper</em></div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-number">99.9%</div>
+                            <div class="result-label">Disponibilité des services<br><em>Source : Azure Status Monitor</em></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <div class="dissertation-part conclusion">
+            <div class="part-header">
+                <i class="fas fa-flag-checkered"></i>
+                <h3>Conclusion : Perspectives et Recommandations Stratégiques</h3>
+            </div>
+            <div class="part-content">
+                <div class="conclusion-summary">
+                    <p><strong>L'évolution des pare-feux</strong> reflète la transformation plus large de la cybersecurity : 
+                    passage d'une approche défensive statique à une posture proactive, intelligente et adaptative. 
+                    Les technologies modernes (IA, cloud, Zero Trust) ne sont plus des options mais des nécessités stratégiques.</p>
+
+                    <div class="recommendations">
+                        <h4>Recommandations Stratégiques :</h4>
+                        <ul>
+                            <li><strong>Adoption progressive du Zero Trust</strong> : Commencer par les assets critiques</li>
+                            <li><strong>Formation continue des équipes</strong> : Les NGFW requièrent de nouvelles compétences</li>
+                            <li><strong>Veille régulière sur les menaces</strong> : Utiliser les frameworks MITRE ATT&CK et NIST</li>
+                            <li><strong>Tests d'intrusion réguliers</strong> : Validation continue de l'efficacité des règles</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="future-perspectives">
+                    <h4>Perspectives Futures 2025-2030 :</h4>
+                    <div class="perspectives-grid">
+                        <div class="perspective-item">
+                            <i class="fas fa-robot"></i>
+                            <h5>IA Predictive</h5>
+                            <p>Anticipation des attaques avant leur occurrence</p>
+                            <em>Gartner Top 10 Strategic Predictions</em>
+                        </div>
+                        <div class="perspective-item">
+                            <i class="fas fa-quantum"></i>
+                            <h5>Post-Quantum</h5>
+                            <p>Préparation à la cryptographie quantique</p>
+                            <em>NIST Post-Quantum Cryptography Standardization</em>
+                        </div>
+                        <div class="perspective-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h5>Autonomous Defense</h5>
+                            <p>Systèmes auto-correctifs et auto-apprenants</p>
+                            <em>DARPA Cyber Grand Challenge</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Références Académiques -->
+        <div class="references-section">
+            <h3><i class="fas fa-book"></i> Références Académiques et Officielles</h3>
+            <div class="references-list">
+                <div class="reference-item">
+                    <strong>ANSSI (2024)</strong> - "Guide de configuration des pare-feux nouvelle génération"
+                </div>
+                <div class="reference-item">
+                    <strong>NIST SP 800-207 (2023)</strong> - "Zero Trust Architecture"
+                </div>
+                <div class="reference-item">
+                    <strong>Gartner (2024)</strong> - "Market Guide for Network Firewalls"
+                </div>
+                <div class="reference-item">
+                    <strong>MITRE ATT&CK (2024)</strong> - "Enterprise Matrix - Techniques and Procedures"
+                </div>
+                <div class="reference-item">
+                    <strong>RFC 8470</strong> - "Considerations around Transport Header Confidentiality"
+                </div>
+                <div class="reference-item">
+                    <strong>ENISA (2024)</strong> - "Best Practices for Firewall Management"
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Section Contact -->
+<section id="contact" class="section bg-dark">
+    <div class="section-header">
+        <h2 class="section-title">Restons en <span>contact</span> !</h2>
+        <div class="section-line"></div>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <!-- Carte Email -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Email</h3>
+                    <a href="mailto:fatoundiayekys20@gmail.com">fatoundiayekys20@gmail.com</a>
+                </div>
+            </div>
+
+            <!-- Carte Téléphone -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Téléphone</h3>
+                    <a href="tel:+33754436267">+33 7 54 43 62 67</a>
+                </div>
+            </div>
+
+            <!-- Carte LinkedIn -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/fatou-ndiaye" target="_blank">linkedin.com/in/fatou-ndiaye</a>
+                </div>
+            </div>
+
+            <!-- Carte GitHub -->
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/fatoundiaye" target="_blank">github.com/fatoundiaye</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section CV -->
+        <div class="cv-section">
+            <div class="cv-card">
+                <div class="cv-icon">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+                <h3>Mon CV</h3>
+                <p>Consultez mon CV pour une présentation complète de mes compétences et expériences.</p>
+                <a href="images/cv-fatou-ndiaye.pdf" class="btn btn-primary" download>
+    <i class="fas fa-download"></i> Télécharger
+</a>
+            </div>
+        </div>
+    </div>
+</section>
